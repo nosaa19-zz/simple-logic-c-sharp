@@ -1,0 +1,13 @@
+C:\Users\nosaa\source\repos\simple-code\bin\Debug\netcoreapp3.1\simple-code.exe
+C:\Users\nosaa\source\repos\simple-code\bin\Debug\netcoreapp3.1\simple-code.deps.json
+C:\Users\nosaa\source\repos\simple-code\bin\Debug\netcoreapp3.1\simple-code.runtimeconfig.json
+C:\Users\nosaa\source\repos\simple-code\bin\Debug\netcoreapp3.1\simple-code.runtimeconfig.dev.json
+C:\Users\nosaa\source\repos\simple-code\bin\Debug\netcoreapp3.1\simple-code.dll
+C:\Users\nosaa\source\repos\simple-code\bin\Debug\netcoreapp3.1\simple-code.pdb
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.csprojAssemblyReference.cache
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.AssemblyInfoInputs.cache
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.AssemblyInfo.cs
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.csproj.CoreCompileInputs.cache
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.dll
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.pdb
+C:\Users\nosaa\source\repos\simple-code\obj\Debug\netcoreapp3.1\simple-code.genruntimeconfig.cache

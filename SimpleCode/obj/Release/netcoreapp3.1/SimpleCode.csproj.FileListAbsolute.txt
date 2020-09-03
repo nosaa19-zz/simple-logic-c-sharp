@@ -1,0 +1,13 @@
+C:\Users\nosaa\source\repos\simple-code\bin\Release\netcoreapp3.1\SimpleCode.exe
+C:\Users\nosaa\source\repos\simple-code\bin\Release\netcoreapp3.1\SimpleCode.deps.json
+C:\Users\nosaa\source\repos\simple-code\bin\Release\netcoreapp3.1\SimpleCode.runtimeconfig.json
+C:\Users\nosaa\source\repos\simple-code\bin\Release\netcoreapp3.1\SimpleCode.runtimeconfig.dev.json
+C:\Users\nosaa\source\repos\simple-code\bin\Release\netcoreapp3.1\SimpleCode.dll
+C:\Users\nosaa\source\repos\simple-code\bin\Release\netcoreapp3.1\SimpleCode.pdb
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.AssemblyInfoInputs.cache
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.AssemblyInfo.cs
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.csproj.CoreCompileInputs.cache
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.dll
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.pdb
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.genruntimeconfig.cache
+C:\Users\nosaa\source\repos\simple-code\obj\Release\netcoreapp3.1\SimpleCode.csprojAssemblyReference.cache
