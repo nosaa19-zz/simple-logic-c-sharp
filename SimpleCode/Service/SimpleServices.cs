@@ -72,28 +72,6 @@ namespace simple_code.Service
             return reverseSentence.ToString();
         }
 
-        public String FindSecondLargeInArray(string str)
-        {
-            int[] nums = Array.ConvertAll(str.Split(' '), int.Parse);
-
-            int max1 = int.MinValue;
-            int max2 = int.MinValue;
-
-            foreach (int i in nums)
-            {
-                if (i > max1)
-                {
-                    max2 = max1;
-                    max1 = i;
-                }
-                else if (i >= max2 && i != max1)
-                {
-                    max2 = i;
-                }
-            }
-            return max2.ToString();
-        }
-
         public String ReverseWords(string str)
         {
             StringBuilder output = new StringBuilder();
@@ -196,7 +174,7 @@ namespace simple_code.Service
             return result;
         }
 
-        public String RotateRight(String str)
+        public String RotateRight(string str)
         {
             int[] nums = Array.ConvertAll(str.Split(' '), int.Parse);
             String result = String.Empty;
@@ -217,7 +195,7 @@ namespace simple_code.Service
             return result;
         }
 
-        public String FindPrime(String str)
+        public String FindPrime(string str)
         {
             int number = ParseInt(str);
 
@@ -233,6 +211,77 @@ namespace simple_code.Service
             }
 
             return "Prime";
+        }
+
+        public String FindSecondLargeInArray(string str)
+        {
+            int[] nums = Array.ConvertAll(str.Split(' '), int.Parse);
+
+            int max1 = int.MinValue;
+            int max2 = int.MinValue;
+
+            foreach (int i in nums)
+            {
+                if (i > max1)
+                {
+                    max2 = max1;
+                    max1 = i;
+                }
+                else if (i >= max2 && i != max1)
+                {
+                    max2 = i;
+                }
+            }
+            return max2.ToString();
+        }
+
+        public String FindthirdLargeInArray(string str)
+        {
+            int[] nums = Array.ConvertAll(str.Split(' '), int.Parse);
+
+            int max1 = int.MinValue;
+            int max2 = int.MinValue;
+            int max3 = int.MinValue;
+
+            foreach (int i in nums)
+            {
+                if (i > max1)
+                {
+                    max3 = max2;
+                    max2 = max1;
+                    max1 = i;
+                }
+                else if (i > max2 && i != max1)
+                {
+                    max3 = max2;
+                    max2 = i;
+                }
+                else if (i > max3 && i != max2 && i != max1)
+                {
+                    max3 = i;
+                }
+            }
+            return max3.ToString();
+        }
+
+        public String FindAngleinTime(string str)
+        {
+            int hours = 12;
+            int mins = 30;
+
+            double hourDegrees = (hours * 30) + (mins * 30.0 / 60);
+            double minuteDegrees = mins * 6;
+
+            double diff = Math.Abs(hourDegrees - minuteDegrees);
+
+            if (diff > 180)
+            {
+                diff = 360 - diff;
+            }
+
+            String result = "The angle between hour hand and minute hand is " + diff + " degrees";
+
+            return result;
         }
 
         /* Private Method Area */
