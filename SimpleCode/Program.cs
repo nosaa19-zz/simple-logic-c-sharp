@@ -13,7 +13,7 @@ namespace SimpleCode
             {
                 Console.Write("# ");
                 input = Console.ReadLine();
-                output = mainController.GetAdvances().SwapByReferenceShow();
+                output = mainController.GetSimples().TotalAllEvenNumbers(input).ToString();
                 Console.WriteLine(output);
                 Console.WriteLine();
             }

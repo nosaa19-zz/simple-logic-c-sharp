@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace simple_code.Domain
+namespace SimpleCode.Domain
 {
     public class TNode
     {

@@ -1,9 +1,9 @@
-﻿using simple_code.Domain;
+﻿using SimpleCode.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace simple_code.Service
+namespace SimpleCode.Service
 {
     public class AdvanceServices
     {

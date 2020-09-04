@@ -1,9 +1,10 @@
 ﻿using Microsoft.VisualBasic.CompilerServices;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
-namespace simple_code.Service
+namespace SimpleCode.Service
 {
     public class SimpleServices
     {
@@ -284,8 +285,14 @@ namespace simple_code.Service
             return result;
         }
 
-        /* Private Method Area */
+        public long TotalAllEvenNumbers(string str)
+        {
+            int[] nums = Array.ConvertAll(str.Split(' '), int.Parse);
 
+            return nums.Where(i => i % 2 == 0).Sum(i => (long)i);
+        }
+
+        /* Private Method Area */
         private int ParseInt(string value, int defaultIntValue = 0)
         {
             int parsedInt;
