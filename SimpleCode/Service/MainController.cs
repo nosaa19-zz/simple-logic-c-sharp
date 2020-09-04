@@ -10,8 +10,14 @@ namespace SimpleCode.Service
     {
         private SimpleServices simples = new SimpleServices();
 
+        private AdvanceServices advances = new AdvanceServices();
+
         public SimpleServices GetSimples() {
             return simples;
+        }
+
+        public AdvanceServices GetAdvances() {
+            return advances;
         }
     }
 }

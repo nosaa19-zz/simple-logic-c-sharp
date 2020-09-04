@@ -13,7 +13,7 @@ namespace SimpleCode
             {
                 Console.Write("# ");
                 input = Console.ReadLine();
-                output = mainController.GetSimples().FindPrime(input);
+                output = mainController.GetAdvances().SwapByReferenceShow();
                 Console.WriteLine(output);
                 Console.WriteLine();
             }
