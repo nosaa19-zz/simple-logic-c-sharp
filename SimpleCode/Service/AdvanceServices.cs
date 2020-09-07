@@ -64,6 +64,19 @@ namespace SimpleCode.Service
             return null;
         }
 
+        public String InheritanceCase01() 
+        {
+            Father f = new Father();
+            Child c = new Child();
+            f = c as Child;
+
+            c.method01();c.method02();c.method03();
+            Console.WriteLine("----------------------------------------------------");
+            f.method01();f.method02();f.method03();
+
+            return null;
+        }
+
         /* Private Method Area */
         private void SwapNum(ref int x, ref int y)
         {
